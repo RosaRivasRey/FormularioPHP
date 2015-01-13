@@ -32,11 +32,9 @@
         <form method="post" action="procesar.php">
 			<label for="nombre">Nombre</label>
 			<input name='nombre' type='text' placeholder='Escribe tu nombre'required>
-			<label for='email'>email</label>
-			<input name='email' type='email' placeholder='Escribe tu email'required>
-			<label for="poblacion">Poblacion</label>
-			<input name='poblacion' type='text' placeholder='Escribe tu poblacion'required>
-			<button class='btn btn-primary' type='submit'>Enviar</button>
+			<label for='password'>Contraseña</label>
+			<input name='password' type='password' placeholder='Escribe tu contraseña'required>
+			<button>Enviar</button>
 		</form>
 		</div>
 <?php include("includes/footer.php")?>
